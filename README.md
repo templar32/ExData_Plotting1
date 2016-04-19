@@ -111,7 +111,7 @@ df$Sub_metering_1 <- as.numeric(as.character(df$Sub_metering_1))
 df$Sub_metering_2 <- as.numeric(as.character(df$Sub_metering_2))
 df$Sub_metering_3 <- as.numeric(as.character(df$Sub_metering_3))
 
- 
+![plot of plot1.png](figure/plot1.png) 
 
 **My Plot 1
 plot1 <- function() {
