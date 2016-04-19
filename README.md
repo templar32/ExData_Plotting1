@@ -126,9 +126,16 @@ plot1 <- function() {
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of plot1.png](figure/plot2.png)
 
-
+**My Plot 2
+plot1 <- function() {
+        plot(df$timestamp,df$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
+        dev.copy(png, file="plot2.png", width=480, height=480)
+        dev.off()
+        cat("plot2.png has been saved in", getwd())
+}
+plot1()
 ### Plot 3
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
